@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Telefon Erişimi</title>
+</head>
+<body>
+
+<h2>HALIT KARAGÜMRÜK TELEFONU</h2>
+
+<input id="pin" type="password">
+
+<button onclick="kontrol()">
+GİRİŞ
+</button>
+
+<script>
+
+function kontrol(){
+
+let sifre =
+document.getElementById("pin").value;
+
+if(sifre=="2209"){
+
+window.location.href=
+"telefon_acildi.html";
+
+}
+else{
+
+alert("Hatalı PIN");
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
